@@ -1,0 +1,61 @@
+table, th, td, tbody, tr, thead{
+  border:0px;
+}
+
+.appNavView{
+  height: 100vh;
+  padding: 0px;
+  box-shadow: 0px 2px 10px 0px;
+}
+
+.mainCont .navbar{
+  margin:0px;
+}
+
+.DetailsView{
+  overflow: auto;
+  height: 100vh;
+}
+
+/*
+* style fo issue table
+*/
+
+
+
+.issue-table tbody{
+  border: 1px solid #ddd;
+}
+
+.issue-table th{
+  border: 0px !important;
+}
+
+/*
+* Style for issue dashboard
+*/
+
+.issue-toolbar{
+  height: 50px;
+  margin-top: 1px;
+  background-color: white;
+  box-shadow:0px 0px 3px 0px grey;
+}
+
+.issue-detail{
+  border-left: 1px solid grey;
+}
+
+.dashboard-cont{
+  padding: 10px 0px 0px 0px;
+  background-color: #ddd;
+  height:70vh;
+}
+
+div.nav-panel ul li{
+  list-style-type: none;
+}
+
+div.nav-panel ul{
+  margin: 10px;
+}

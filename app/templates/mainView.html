@@ -1,0 +1,75 @@
+<div class="appView" ng-controller="dashboardCtrl">
+
+  <div class="appNavView col-md-2">
+    <div class="nav-panel">
+      <ul class="no-decor">
+        <li class="text-center">smthn<span class="badge">10</span></li>
+        <li class="text-center"></li>
+        <li class="text-center"></li>
+        <li class="text-center"></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="DetailsView col-md-10">
+    <div class="container">
+
+      <!-- start of the table container -->
+      <table class="table issue-table">
+          <thead>
+            <tr>
+              <th>Source</th>
+              <th>Ticket ID</th>
+              <th>Description</th>
+              <th>Customer</th>
+              <th>Product</th>
+              <th>Type</th>
+              <th>State</th>
+              <th>SLA(Hrs)</th>
+              <th>Assignee</th>
+            </tr>
+          </thead>
+          <tbody ng-click="openIssueView($event)">
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+            <tr>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+              <td>John</td>
+              <td>Doe</td>
+              <td>john@example.com</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <!-- end of the table container -->
+
+    </div>
+  </div>
+
+</div>
